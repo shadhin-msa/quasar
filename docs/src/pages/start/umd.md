@@ -17,6 +17,7 @@ UMD is all about adding Quasar style and javascript tags. Please select what you
 * If you are using an RTL Quasar language pack (eg. Hebrew) then toggle the "RTL CSS support" above too!
 * Do NOT use self-closing tags, like `<q-icon ... />`. Instead, go with `<q-icon ...></q-icon>`.
 * It might be wise to pin all the packages that you use to specific versions that you've already tested in development. Regressions can occur, like in Vue 3.2.32 and this can break your pages. Example of pinning Vue to a specific version (point the script tag to): https://cdn.jsdelivr.net/npm/vue@3.2.31/dist/vue.global.prod.js
+* Add following line for responsive <meta name="viewport" content= "width=device-width, initial-scale=1.0">
 :::
 
 ::: tip
